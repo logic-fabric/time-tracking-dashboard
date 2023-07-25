@@ -1,0 +1,39 @@
+/* =======================
+   RAW TAGS DEFAULT STYLES
+   ======================= */
+
+html {
+  box-sizing: border-box;
+
+  color: white;
+  font-family: $font-text;
+  font-weight: 300;
+
+  background-color: $neutral-900;
+
+  scroll-behavior: smooth;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+
+  width: 100%;
+  max-width: $small-container-width;
+  min-height: 100vh;
+
+  margin: auto;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+
+  list-style-type: none;
+}
