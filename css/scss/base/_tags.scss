@@ -23,17 +23,23 @@ html {
 body {
   display: flex;
   flex-direction: column;
+  gap: $medium-spacing;
 
   width: 100%;
-  max-width: $small-container-width;
+  max-width: $sm-container-width;
   min-height: 100vh;
-
   margin: auto;
+  padding: 64px 16px;
+
+  font-size: $txt-size;
 }
 
 ul {
   margin: 0;
   padding: 0;
+
+  color: $neutral-200;
+  font-size: $h2-size;
 
   list-style-type: none;
 }

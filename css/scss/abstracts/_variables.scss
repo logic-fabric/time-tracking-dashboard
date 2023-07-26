@@ -20,7 +20,7 @@ $neutral-200: hsl(236, 100%, 87%);
 // TYPOGRAPHY
 // ==========
 
-$font-text: "Rubik", Helvetica sans-serif;
+$font-text: "Rubik", Helvetica, sans-serif;
 
 // =======================
 // TEXT AND HEADINGS SIZES
@@ -28,9 +28,23 @@ $font-text: "Rubik", Helvetica sans-serif;
 
 $txt-size: 1.1rem;
 
+$h2-size: 1.05 * $txt-size;
+$h1-size: 1.35 * $txt-size;
+
+$jumbotron-size: 2rem;
+
 // ====================================
 // BREAKPOINTS AND CONTAINERS MAX-WIDTH
 // ====================================
 
-$small-container-width: 375px;
-$large-container-width: 1440px;
+$sm-container-width: 480px;
+$lg-container-width: 1440px;
+
+// ======
+// SHAPES
+// ======
+
+$medium-spacing: 24px;
+$lg-spacing: 40px;
+
+$lg-radius: 1rem;

@@ -1,0 +1,79 @@
+.card {
+  position: relative;
+
+  border-radius: $lg-radius;
+  overflow: hidden;
+  padding: $lg-spacing 0 0 0;
+
+  &--exercise {
+    background: $exercise-color;
+  }
+
+  &--play {
+    background: $play-color;
+  }
+
+  &--self-care {
+    background: $self-care-color;
+  }
+
+  &--social {
+    background: $social-color;
+  }
+
+  &--study {
+    background: $study-color;
+  }
+
+  &--work {
+    background: $work-color;
+  }
+
+  &__activity-icon {
+    position: absolute;
+    top: -0.5rem;
+    right: 1rem;
+  }
+
+  &__content {
+    position: relative;
+
+    padding: $medium-spacing;
+    border-radius: $lg-radius $lg-radius 0 0;
+
+    background: $neutral-700;
+  }
+
+  &__header,
+  &__activity-values {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__header {
+    h2 {
+      margin: 0 0 0.75rem 0;
+
+      font-size: $h2-size;
+      font-weight: 400;
+    }
+
+    span {
+      color: $neutral-200;
+    }
+  }
+
+  &__week-activity {
+    font-size: $jumbotron-size;
+    font-weight: 300;
+  }
+
+  &__last-week-activity {
+    color: $neutral-200;
+  }
+
+  p {
+    margin: 0;
+  }
+}

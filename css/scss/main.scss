@@ -17,11 +17,11 @@
 // @import "base/typography";
 
 // 4. Layout-related sections:
-// @import "layout/header";
-// @import "layout/footer";
+@import "layout/header";
+@import "layout/main";
 
 // 5. Components:
-// @import "components/card";
+@import "components/card";
 
 // 6. Pages specific styles:
 // @import "pages/page-404";
