@@ -44,132 +44,138 @@
   </head>
 
   <body>
-    <header>
-      <div class="header__banner">
-        <div class="header__avatar">
-          <img src="./img/image-jeremy.png" alt="Jeremy Robson" />
+    <div class="content-wrapper">
+      <header>
+        <div class="header__banner">
+          <div class="header__avatar">
+            <img src="./img/image-jeremy.png" alt="Jeremy Robson" />
+          </div>
+
+          <h1 class="header__title">
+            Report for <span class="header__username">Jeremy Robson</span>
+          </h1>
         </div>
 
-        <h1 class="header__title">
-          Report for <span class="header__username">Jeremy Robson</span>
-        </h1>
-      </div>
+        <nav>
+          <ul class="header__links">
+            <li>Daily</li>
+            <li class="active">Weekly</li>
+            <li>Monthly</li>
+          </ul>
+        </nav>
+      </header>
 
-      <nav>
-        <ul class="header__links">
-          <li>Daily</li>
-          <li class="active">Weekly</li>
-          <li>Monthly</li>
-        </ul>
-      </nav>
-    </header>
+      <main>
+        <article class="card card--work">
+          <img class="card__activity-icon" src="./img/icon-work.svg" alt="" />
 
-    <main>
-      <article class="card card--work">
-        <img class="card__activity-icon" src="./img/icon-work.svg" alt="" />
+          <div class="card__content">
+            <div class="card__header">
+              <h2>Work</h2>
 
-        <div class="card__content">
-          <div class="card__header">
-            <h2>Work</h2>
+              <span class="fas fa-ellipsis-h"></span>
+            </div>
 
-            <span class="fas fa-ellipsis-h"></span>
+            <div class="card__activity-values">
+              <p class="card__week-activity">32hrs</p>
+              <p class="card__last-week-activity">Last week - 36hrs</p>
+            </div>
           </div>
+        </article>
 
-          <div class="card__activity-values">
-            <p class="card__week-activity">32hrs</p>
-            <p class="card__last-week-activity">Last week - 36hrs</p>
+        <article class="card card--play">
+          <img class="card__activity-icon" src="./img/icon-play.svg" alt="" />
+
+          <div class="card__content">
+            <div class="card__header">
+              <h2>Play</h2>
+
+              <span class="fas fa-ellipsis-h"></span>
+            </div>
+
+            <div class="card__activity-values">
+              <p class="card__week-activity">10hrs</p>
+              <p class="card__last-week-activity">Last week - 8hrs</p>
+            </div>
           </div>
-        </div>
-      </article>
+        </article>
 
-      <article class="card card--play">
-        <img class="card__activity-icon" src="./img/icon-play.svg" alt="" />
+        <article class="card card--study">
+          <img class="card__activity-icon" src="./img/icon-study.svg" alt="" />
 
-        <div class="card__content">
-          <div class="card__header">
-            <h2>Play</h2>
+          <div class="card__content">
+            <div class="card__header">
+              <h2>Study</h2>
 
-            <span class="fas fa-ellipsis-h"></span>
+              <span class="fas fa-ellipsis-h"></span>
+            </div>
+
+            <div class="card__activity-values">
+              <p class="card__week-activity">4hrs</p>
+              <p class="card__last-week-activity">Last week - 7hrs</p>
+            </div>
           </div>
+        </article>
 
-          <div class="card__activity-values">
-            <p class="card__week-activity">10hrs</p>
-            <p class="card__last-week-activity">Last week - 8hrs</p>
+        <article class="card card--exercise">
+          <img
+            class="card__activity-icon"
+            src="./img/icon-exercise.svg"
+            alt=""
+          />
+
+          <div class="card__content">
+            <div class="card__header">
+              <h2>Exercise</h2>
+
+              <span class="fas fa-ellipsis-h"></span>
+            </div>
+
+            <div class="card__activity-values">
+              <p class="card__week-activity">4hrs</p>
+              <p class="card__last-week-activity">Last week - 5hrs</p>
+            </div>
           </div>
-        </div>
-      </article>
+        </article>
 
-      <article class="card card--study">
-        <img class="card__activity-icon" src="./img/icon-study.svg" alt="" />
+        <article class="card card--social">
+          <img class="card__activity-icon" src="./img/icon-social.svg" alt="" />
 
-        <div class="card__content">
-          <div class="card__header">
-            <h2>Study</h2>
+          <div class="card__content">
+            <div class="card__header">
+              <h2>Social</h2>
 
-            <span class="fas fa-ellipsis-h"></span>
+              <span class="fas fa-ellipsis-h"></span>
+            </div>
+
+            <div class="card__activity-values">
+              <p class="card__week-activity">5hrs</p>
+              <p class="card__last-week-activity">Last week - 10hrs</p>
+            </div>
           </div>
+        </article>
 
-          <div class="card__activity-values">
-            <p class="card__week-activity">4hrs</p>
-            <p class="card__last-week-activity">Last week - 7hrs</p>
+        <article class="card card--self-care">
+          <img
+            class="card__activity-icon"
+            src="./img/icon-self-care.svg"
+            alt=""
+          />
+
+          <div class="card__content">
+            <div class="card__header">
+              <h2>Self Care</h2>
+
+              <span class="fas fa-ellipsis-h"></span>
+            </div>
+
+            <div class="card__activity-values">
+              <p class="card__week-activity">2hrs</p>
+              <p class="card__last-week-activity">Last week - 2hrs</p>
+            </div>
           </div>
-        </div>
-      </article>
-
-      <article class="card card--exercise">
-        <img class="card__activity-icon" src="./img/icon-exercise.svg" alt="" />
-
-        <div class="card__content">
-          <div class="card__header">
-            <h2>Exercise</h2>
-
-            <span class="fas fa-ellipsis-h"></span>
-          </div>
-
-          <div class="card__activity-values">
-            <p class="card__week-activity">4hrs</p>
-            <p class="card__last-week-activity">Last week - 5hrs</p>
-          </div>
-        </div>
-      </article>
-
-      <article class="card card--social">
-        <img class="card__activity-icon" src="./img/icon-social.svg" alt="" />
-
-        <div class="card__content">
-          <div class="card__header">
-            <h2>Social</h2>
-
-            <span class="fas fa-ellipsis-h"></span>
-          </div>
-
-          <div class="card__activity-values">
-            <p class="card__week-activity">5hrs</p>
-            <p class="card__last-week-activity">Last week - 10hrs</p>
-          </div>
-        </div>
-      </article>
-
-      <article class="card card--self-care">
-        <img
-          class="card__activity-icon"
-          src="./img/icon-self-care.svg"
-          alt=""
-        />
-
-        <div class="card__content">
-          <div class="card__header">
-            <h2>Self Care</h2>
-
-            <span class="fas fa-ellipsis-h"></span>
-          </div>
-
-          <div class="card__activity-values">
-            <p class="card__week-activity">2hrs</p>
-            <p class="card__last-week-activity">Last week - 2hrs</p>
-          </div>
-        </div>
-      </article>
-    </main>
+        </article>
+      </main>
+    </div>
   </body>
 </html>

@@ -1,5 +1,10 @@
 main {
-  display: flex;
-  flex-direction: column;
+  display: grid;
   gap: $medium-spacing;
+
+  @media (min-width: $md-breakpoint) {
+    flex: 3;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+  }
 }

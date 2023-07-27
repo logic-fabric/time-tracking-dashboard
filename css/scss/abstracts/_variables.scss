@@ -31,11 +31,11 @@ $txt-size: 1.1rem;
 $h2-size: 1.05 * $txt-size;
 $h1-size: 1.35 * $txt-size;
 
-$jumbotron-size: 2rem;
-
 // ====================================
 // BREAKPOINTS AND CONTAINERS MAX-WIDTH
 // ====================================
+
+$md-breakpoint: 1024px;
 
 $sm-container-width: 480px;
 $lg-container-width: 1440px;
