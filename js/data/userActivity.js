@@ -1,6 +1,7 @@
 export class UserActivity {
-  constructor(userName, activity) {
-    this._userName = userName;
-    this._activity = activity;
+  constructor(userName, avatar, activity) {
+    this.userName = userName;
+    this.avatar = avatar;
+    this.activity = activity;
   }
 }

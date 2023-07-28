@@ -11,9 +11,13 @@ export class DataFetcher {
     if (response.ok) {
       let json = await response.json();
 
-      const userActivity = new UserActivity(json.userName, json.activity);
+      const userActivity = new UserActivity(
+        json.userName,
+        json.avatar,
+        json.activity
+      );
 
-      return { userActivity: userActivity };
+      return userActivity;
     } else {
       console.error(`Unable to fetch data from ${this._dataSource}`);
     }

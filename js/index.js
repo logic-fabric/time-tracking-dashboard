@@ -4,6 +4,5 @@ import { DataFetcher } from "./data/dataFetcher.js";
 const DATA_SOURCE = "./js/data/jeremy-robson.json";
 const dataFetcher = new DataFetcher(DATA_SOURCE);
 
-const userActivity = dataFetcher.fetchSource();
+new DashboardPage(dataFetcher);
 
-new DashboardPage(userActivity);
